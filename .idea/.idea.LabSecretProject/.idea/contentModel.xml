@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="ButtonClickHandler.cs" t="Include" />
+          <e p="ClickHandler.cs" t="Include" />
+          <e p="Destroy.cs" t="Include" />
+          <e p="Lab3" t="Include">
+            <e p="Lab3_handlers.cs" t="Include" />
+          </e>
+          <e p="Lab4" t="Include">
+            <e p="CameraCloseupTrigger.cs" t="Include" />
+            <e p="CameraFollow.cs" t="Include" />
+            <e p="CameraRegion2Trigger.cs" t="Include" />
+          </e>
+          <e p="Lab4PlayerHandler.cs" t="Include" />
+          <e p="Mover.cs" t="Include" />
+          <e p="Player" t="Include">
+            <e p="PlayerMovement.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="LabSecretProject.sln" t="IncludeFlat" />
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2017.3/resharper-host/local/Transient/ReSharperHost/v11/SolutionCaches/_LabSecretProject.448209187.00" t="ExcludeRecursive" />
+  </component>
+</project>

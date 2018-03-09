@@ -49,7 +49,7 @@ public class Lab4PlayerHandler : MonoBehaviour {
     {
 
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, defineGround);
-        animator.SetBool("Ground", isGrounded);
+        animator.SetBool("Grounded", isGrounded);
 
         //pass vertical velocity to animator
         animator.SetFloat("vSpeed", rBody.velocity.y);
