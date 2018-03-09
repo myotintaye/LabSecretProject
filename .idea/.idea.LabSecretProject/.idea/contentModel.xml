@@ -6,6 +6,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="ButtonClickHandler.cs" t="Include" />
+          <e p="CameraFollowCowboy.cs" t="Include" />
           <e p="ClickHandler.cs" t="Include" />
           <e p="Destroy.cs" t="Include" />
           <e p="Lab3" t="Include">

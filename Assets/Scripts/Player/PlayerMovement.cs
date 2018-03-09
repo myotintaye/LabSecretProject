@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour {
 
     public float runSpeed = 5.0f;
-    public float jumpSpeed = 80.0f;
+    public float jumpSpeed = 40.0f;
     public Transform groundCheck;
     public float groundCheckRadius = 0.2f;
     public LayerMask whatIsGround;
