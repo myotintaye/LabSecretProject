@@ -5,9 +5,9 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour {
 
     public float runSpeed = 5.0f;
-    public float jumpSpeed = 40.0f;
+    public float jumpSpeed = 20.0f;
     public Transform groundCheck;
-    public float groundCheckRadius = 0.2f;
+    public float groundCheckRadius = 0.5f;
     public LayerMask whatIsGround;
 
     private Rigidbody2D rBody;
@@ -25,11 +25,15 @@ public class PlayerMovement : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
+        
+        Debug.Log("enter Update()");
+        Debug.Log("Grounded? " + isGrounded.ToString());
+        
         if (isGrounded && Input.GetAxis("Jump") > 0)
         {
             anim.SetBool("Grounded", false);
             rBody.AddForce(new Vector2(0.0f, jumpSpeed));
-            isGrounded = false; 
+//            isGrounded = false; 
         }
 	}
 
@@ -37,6 +41,8 @@ public class PlayerMovement : MonoBehaviour {
     {
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
         anim.SetBool("Grounded", isGrounded);
+        
+         Debug.Log("Grounded? " + isGrounded.ToString());
 
         anim.SetFloat("vSpeed", rBody.velocity.y);
 

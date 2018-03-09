@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Lab4PlayerHandler : MonoBehaviour {
     public string horizontalInput;
-    public string jumpKey;
+//    public string jumpKey;
 
 
     // Public variables
@@ -32,16 +32,16 @@ public class Lab4PlayerHandler : MonoBehaviour {
 
     void Update()
     {
-        if (Input.GetAxis(jumpKey) > 0)
-        {
-            
-            Vector2 velocity = rBody.velocity;
-            if(Mathf.Approximately(velocity.y, 0))
-            {
-                rBody.AddForce(new Vector2(0, jumpForce));
-
-            }
-        }
+//        if (Input.GetAxis(jumpKey) > 0)
+//        {
+//            
+//            Vector2 velocity = rBody.velocity;
+//            if(Mathf.Approximately(velocity.y, 0))
+//            {
+//                rBody.AddForce(new Vector2(0, jumpForce));
+//
+//            }
+//        }
     }
 
     // Guarenteed to be called at defined time intervals. USE FOR PHYSICS!!!
